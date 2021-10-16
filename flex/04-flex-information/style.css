@@ -20,7 +20,38 @@ img {
   right: 0;
   height: 52px;
   display: flex;
-  align-items: center;;
+  align-items: center;
+  ;
   justify-content: center;
   background: #eee;
+}
+
+
+
+/* my solution */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 32px;
+}
+
+.top,
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+  gap: 52px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-self: center;
+  max-width: 200px;
+  text-align: center;
 }
